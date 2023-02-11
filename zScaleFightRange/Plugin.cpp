@@ -7,6 +7,7 @@ namespace GOTHIC_ENGINE {
   }
 
   void Game_Init() {
+    Options::ReadOptions();
   }
 
   void Game_Exit() {
@@ -34,6 +35,7 @@ namespace GOTHIC_ENGINE {
   }
 
   void LoadBegin() {
+    Options::ReadOptions();
   }
 
   void LoadEnd() {

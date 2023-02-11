@@ -3,6 +3,7 @@
 
 // Automatically generated block
 #pragma region Includes
+#include "zScaleFightRange.cpp"
 #include "Plugin.cpp"
 #pragma endregion
 
